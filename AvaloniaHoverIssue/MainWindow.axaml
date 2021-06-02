@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaHoverIssue.MainWindow"
+        Title="AvaloniaHoverIssue"
+		Width="800"
+		Height="600"
+		WindowStartupLocation="CenterScreen"
+		CanResize="False"
+		ExtendClientAreaChromeHints="PreferSystemChrome"
+		ExtendClientAreaToDecorationsHint="True"
+		ExtendClientAreaTitleBarHeightHint="80"
+		>
+
+		<Panel >
+			<StackPanel Spacing="10">
+				<Border  Background="White" BorderBrush="#B8C1CC" BorderThickness="1" Height="80" VerticalAlignment="Top" IsHitTestVisible="False">
+					<TextBlock Margin="32,32,0,0" FontWeight="Bold" TextAlignment="Left" Classes="HeaderText" Foreground="#293038" Text="Header"/>
+				</Border>
+
+				<TextBlock Margin="32,32,0,0" TextAlignment="Left" Classes="HeaderText" Foreground="#293038" Text="Body"/>
+			</StackPanel>
+		</Panel>
+</Window>
